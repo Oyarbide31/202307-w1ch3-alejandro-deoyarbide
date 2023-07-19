@@ -1,0 +1,43 @@
+hgroup {
+  background-color: rgba(81, 105, 167, 255);
+  justify-content: space-between;
+  display: flex;
+}
+
+h1 {
+  margin-left: 10px;
+}
+
+ol {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  margin-right: 10px;
+}
+
+.sum {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  color: red;
+  border-radius: red;
+}
+
+.addElements {
+  background-color: #d09d72;
+}
+
+.Elements {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-end;
+}
+.shoppingBasket {
+  background-color: rgba(209, 190, 173, 255);
+}
