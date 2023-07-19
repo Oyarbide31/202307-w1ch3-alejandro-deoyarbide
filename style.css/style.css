@@ -41,3 +41,16 @@ ol {
 .shoppingBasket {
   background-color: rgba(209, 190, 173, 255);
 }
+
+hr {
+  height: 0.7px;
+  background-color: blueviolet;
+}
+.result {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-end;
+  background-color: rgba(209, 190, 173, 255);
+}
