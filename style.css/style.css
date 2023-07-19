@@ -23,8 +23,8 @@ ol {
   flex-direction: column-reverse;
   flex-wrap: wrap;
   align-content: flex-start;
-  color: red;
-  border-radius: red;
+  color: rgb(179, 8, 246);
+  border-radius: rgb(179, 8, 246);
 }
 
 .addElements {
@@ -37,15 +37,22 @@ ol {
   flex-wrap: wrap;
   align-items: center;
   align-content: flex-end;
+  font-size: 200%;
 }
+
 .shoppingBasket {
   background-color: rgba(209, 190, 173, 255);
+  font-size: 150%;
 }
 
 hr {
-  height: 0.7px;
+  height: 1px;
   background-color: blueviolet;
+  margin: 0;
+  left: 0;
+  right: 0;
 }
+
 .result {
   display: flex;
   flex-direction: column-reverse;
@@ -53,4 +60,17 @@ hr {
   align-items: center;
   align-content: flex-end;
   background-color: rgba(209, 190, 173, 255);
+  font-size: 150%;
+}
+
+footer {
+  background-color: rgba(81, 105, 167, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  background-color: white;
 }
